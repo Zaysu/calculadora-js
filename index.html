@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <title>PROJETO CALCULADORA</title>
+        <link rel="stylesheet" href="">
+        <script language="JavaScript" src="calculadora.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    </head>
+<body style="background-image: url('https://acegif.com/wp-content/gif/outerspace-58.gif'); background-repeat: no-repeat;  background-attachment: fixed; background-size: 100% 100%;">
+     
+    <center>
+    
+        <h3 class=" p-1 mb-1 bg-info"> CALCULADORA </h3>
+
+
+    <form   action="" name="calc">
+        <div id="calculadora">
+
+
+  
+            <center>
+
+            
+          <input placeholder="DIGITE SUA CONTA" aria-label="Username" aria-describedby="basic-addon1" type="text" id="visor" name="visor">  <h1></h1>
+      
+            <div class="btn-group" role="group" aria-label="Basic radio toggle button group" id="primeira">
+               <td class="col"><input class="btn btn-lg btn-dark" type="button" value="7" class="botao borda" onclick="botao(value)"></td>
+               <td class="col"> <input class="btn btn-lg btn-dark" type="button" value="8" class="botao borda" onclick="botao(value)"></td>
+              <td class="col">  <input class="btn btn-lg btn-dark" type="button" value="9" class="botao borda" onclick="botao(value)"></td>
+              <td class="col">  <input class="btn btn-lg btn-danger" type="button" value="/" class="botao borda" onclick="botao(value)"></td>
+            </div><p></p>
+            <div class="btn-group" role="group" aria-label="Basic radio toggle button group" id="segunda">
+              <td class="col">  <input class="btn btn-lg btn-dark" type="button" value="4" class="botao borda" onclick="botao(value)"></td>
+              <td class="col">  <input class="btn btn-lg btn-dark" type="button" value="5" class="botao borda" onclick="botao(value)"></td>
+              <td class="col">  <input class="btn btn-lg btn-dark" type="button" value="6" class="botao borda" onclick="botao(value)"></td>
+              <td class="col">  <input class="btn btn-lg btn-danger" type="button" value="*" class="botao borda" onclick="botao(value)"></td>
+            </div><p></p>
+            <div class="btn-group" role="group" aria-label="Basic radio toggle button group" id="terceira">
+              <td class="col">  <input class="btn btn-lg btn-dark" type="button" value="1" class="botao borda" onclick="botao(value)"></td>
+              <td class="col">  <input class="btn btn-lg btn-dark" type="button" value="2" class="botao borda" onclick="botao(value)"></td>
+              <td class="col">  <input class="btn btn-lg btn-dark" type="button" value="3" class="botao borda" onclick="botao(value)"></td>
+             <td class="col">   <input class="btn btn-lg btn-danger" type="button" value="-" class="botao borda" onclick="botao(value)"></td>
+            </div> <p></p>
+            <div class="btn-group" role="group" aria-label="Basic radio toggle button group" id="quarta">
+             <td class="col">   <input class="btn btn-lg btn-danger" type="button" value="C" class="botao borda" onclick="reseta()"></td>
+             <td class="col">   <input class="btn btn-lg btn-danger" type="button" value="0" class="botao borda" onclick="botao(value)"></td>
+             <td class="col">   <input class="btn btn-lg btn-danger" type="button" value="=" class="botao borda" onclick="calcula()"></td>
+             <td class="col">   <input class="btn btn-lg btn-danger" type="button" value="+" class="botao borda" onclick="botao(value)"></td>
+            </div>
+                                               
+
+        </div>
+    </form>
+    <p>
+        <a class="btn btn-info" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+          ZaysuJr
+        </a>
+        <button class="btn btn-info" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+          Projeto Dev calculadora
+        </button>
+      </p>
+      <div class="collapse" id="collapseExample">
+        <div class="card card-body">
+         Projeto Calculadora Curso Engenharia de software primeiro periodo 2021, Desenvolvido por @ZaysuJr, Usando HTML,Bootstrap e JS
+        </div>
+      </div>
+</center>
+</body> 
+
+</html>
